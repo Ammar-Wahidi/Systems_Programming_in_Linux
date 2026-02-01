@@ -72,7 +72,8 @@ char *process_var(const char *token) {
     return strdup(buf);
 }
 
-int nanoshell_main(int argc, char *argv[]) {
+// nanoshell_main
+int main(int argc, char *argv[]) {
     (void)argc;
     (void)argv;
 

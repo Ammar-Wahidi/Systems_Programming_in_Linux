@@ -4,8 +4,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-
-int femtoshell_main(int argc, char *argv[]) {
+// femtoshell_main
+int main(int argc, char *argv[]) {
     int status = 0;
     char line[20000];
     char command[20000];
@@ -35,7 +35,7 @@ int femtoshell_main(int argc, char *argv[]) {
 
         if(strcmp(command,"exit")==0)
         {
-            write(1,"\nGood Bye\n",12);
+            write(1,"\nGood Bye\n",1);
             break ;
         }
         else if (strcmp(command,"echo")==0)

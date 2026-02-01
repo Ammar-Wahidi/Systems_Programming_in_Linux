@@ -8,7 +8,8 @@
 #define CMD_SIZE 256
 #define MAXARGS 128
 
-int picoshell_main(int argc, char *argv[])
+// picoshell_main
+int main(int argc, char *argv[])
 {
     char buf[BUF_SIZE];
     char command[CMD_SIZE];
